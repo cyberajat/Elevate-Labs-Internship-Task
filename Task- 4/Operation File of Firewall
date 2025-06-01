@@ -3,6 +3,25 @@
 ## 🎯 Objective
 Configure and test basic firewall rules using UFW on Kali Linux to understand how firewalls filter network traffic.
 
+Summary: How Firewalls Filter Traffic
+A firewall filters traffic by inspecting incoming and outgoing packets and applying rules based on port, protocol, or IP. 
+
+In this task, we:
+Blocked an insecure service (Telnet on port 23)
+Allowed secure remote access (SSH on port 22)
+Verified and reversed the changes safely
+UFW simplifies this process with easy-to-use commands compared to traditional iptables.
+
+✅ Outcome
+Gained hands-on experience with:
+
+Managing firewall rules
+
+Testing rule behavior
+
+Understanding basic network filtering logic
+
+
 ---
 
 ## 🛠 Tools Used
