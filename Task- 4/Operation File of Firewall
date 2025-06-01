@@ -12,7 +12,7 @@ Allowed secure remote access (SSH on port 22)
 Verified and reversed the changes safely
 UFW simplifies this process with easy-to-use commands compared to traditional iptables.
 
-✅ Outcome
+Outcome
 Gained hands-on experience with:
 
 Managing firewall rules
