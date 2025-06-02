@@ -1,5 +1,45 @@
 # Elevate-Labs-Internship-Task 5
 
+# Live Packet Capture and Protocol Identification
+
+## 🎯 Objective
+Capture live network packets using Wireshark and identify at least three protocols from the captured traffic.
+
+---
+
+## 🛠 Tools Used
+- **Wireshark** (installed via `sudo apt install wireshark`)
+- **Kali Linux Terminal** (used to ping and generate traffic)
+- **Firefox browser** (used to create HTTP/DNS traffic)
+
+---
+
+## 🔁 Steps Performed
+
+### 1. Started Wireshark:
+```bash
+wireshark
+
+
+2. Captured on active interface: eth0
+3. Generated traffic by:
+And visiting https://example.com in the browser.
+
+4. Stopped the capture after ~1 minute.
+ping google.com
+
+```
+
+| Protocol | Wireshark Filter | Description                     |
+| -------- | ---------------- | ------------------------------- |
+| DNS      | `dns`            | Show only DNS queries/responses |
+| HTTP     | `http`           | Show HTTP requests/responses    |
+| ICMP     | `icmp`           | Show ping requests/replies      |
+| TCP      | `tcp`            | Show all TCP packets            |
+| UDP      | `udp`            | Show all UDP packets            |
+
+
+
  Task 5 – Wireshark Packet Capture
 
 ## 🔍 Objective
