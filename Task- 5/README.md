@@ -1,6 +1,6 @@
 # Elevate-Labs-Internship-Task 5
 
-# Task 5 – Wireshark Packet Capture
+ Task 5 – Wireshark Packet Capture
 
 ## 🔍 Objective
 Capture live traffic and identify different network protocols using Wireshark.
