@@ -30,6 +30,7 @@ ping google.com
 
 ```
 
+
 | Protocol | Wireshark Filter | Description                     |
 | -------- | ---------------- | ------------------------------- |
 | DNS      | `dns`            | Show only DNS queries/responses |
@@ -39,8 +40,6 @@ ping google.com
 | UDP      | `udp`            | Show all UDP packets            |
 
 
-
- Task 5 – Wireshark Packet Capture
 
 ## 🔍 Objective
 Capture live traffic and identify different network protocols using Wireshark.
@@ -60,10 +59,6 @@ Capture live traffic and identify different network protocols using Wireshark.
 ### 3. ICMP
 - Usage: Ping command (Echo request and reply)
 - Example Packet: `Echo (ping) request to 142.250.183.110 (google.com)`
-
-## 🔧 Tools Used
-- Wireshark (Kali Linux)
-- Browser and ping command
 
 ## 📌 Summary
 Using Wireshark, I captured live network traffic and successfully identified common protocols like DNS, HTTP, and ICMP. Display filters helped isolate specific packet types and understand their structure and purpose.
