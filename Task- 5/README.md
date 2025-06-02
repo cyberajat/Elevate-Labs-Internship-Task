@@ -45,9 +45,6 @@ ping google.com
 ## 🔍 Objective
 Capture live traffic and identify different network protocols using Wireshark.
 
-## 📁 File Included
-- `task5_capture.pcap`
-
 ## ✅ Protocols Identified
 
 ### 1. DNS
@@ -69,4 +66,4 @@ Capture live traffic and identify different network protocols using Wireshark.
 - Browser and ping command
 
 ## 📌 Summary
-This task improved my understanding of packet structure, headers, and how protocols like DNS and HTTP work under the hood.
+Using Wireshark, I captured live network traffic and successfully identified common protocols like DNS, HTTP, and ICMP. Display filters helped isolate specific packet types and understand their structure and purpose.
